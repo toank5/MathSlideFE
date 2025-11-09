@@ -1,0 +1,51 @@
+// import { ROLE } from "./roles";
+
+// export const ALL_ROLES = Object.values(ROLE);
+
+// export const ADMIN_ONLY = [ROLE.ADMIN];
+// export const AAO_ONLY = [
+//   ROLE.ACADEMIC_AFFAIRS_OFFICE,
+//   ROLE.HEAD_OF_ACADEMIC_AFFAIRS_OFFICE,
+// ];
+// export const HOD_ONLY = [ROLE.HEAD_OF_DEPARTMENT];
+// export const COMMITTEE_ONLY = [ROLE.EVALUATION_COMMITTEE];
+// export const LECTURER_ONLY = [ROLE.LECTURER];
+// export const STUDENT_ONLY = [ROLE.STUDENT];
+
+// // Lecturer, Student
+// export const LECTURER_AND_STUDENT = [
+//   ROLE.LECTURER,
+//   ROLE.STUDENT,
+//   ROLE.HEAD_OF_DEPARTMENT,
+//   ROLE.EVALUATION_COMMITTEE,
+//   ROLE.ACADEMIC_AFFAIRS_OFFICE,
+//   ROLE.HEAD_OF_ACADEMIC_AFFAIRS_OFFICE,
+// ];
+
+// // HOD, Committee
+// export const HOD_AND_COMMITTEE = [
+//   ROLE.HEAD_OF_DEPARTMENT,
+//   ROLE.EVALUATION_COMMITTEE,
+// ];
+
+// // Admin, AAO, HOD
+// export const ADMIN_AAO_HOD = [
+//   ROLE.ADMIN,
+//   ROLE.ACADEMIC_AFFAIRS_OFFICE,
+//   ROLE.HEAD_OF_ACADEMIC_AFFAIRS_OFFICE,
+//   ROLE.HEAD_OF_DEPARTMENT,
+// ];
+
+// // Admin, AAO
+// export const ADMIN_AND_AAO = [
+//   ROLE.ADMIN,
+//   ROLE.ACADEMIC_AFFAIRS_OFFICE,
+//   ROLE.HEAD_OF_ACADEMIC_AFFAIRS_OFFICE,
+// ];
+
+// // AAO, HOD
+// export const AAO_AND_HOD = [
+//   ROLE.ACADEMIC_AFFAIRS_OFFICE,
+//   ROLE.HEAD_OF_ACADEMIC_AFFAIRS_OFFICE,
+//   ROLE.HEAD_OF_DEPARTMENT,
+// ];

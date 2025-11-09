@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: font + background default */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.tiptap-container {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.tiptap-menu-bar {
+  padding: 6px;
+  border-bottom: 1px solid #d9d9d9;
+  background: #fafafa;
+  display: flex;
+  gap: 6px;
+}
+
+.tiptap-menu-bar button {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+}
+
+.tiptap-menu-bar button.is-active {
+  background: #e6f7ff;
+  border-color: #91d5ff;
+}
+
+.rich-text-content ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  padding-left: 0;
+}
+
+.rich-text-content ol {
+  list-style-type: decimal;
+  margin-left: 1.25rem;
+  padding-left: 0;
+}
+
+.rich-text-content {
+  padding: 8px 11px;
+  min-height: 160px;
+  outline: none;
+}
+
+.rich-text-content p {
+  margin: 0 0 8px 0;
+}
